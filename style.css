@@ -1,0 +1,18 @@
+h1 {
+    color:cornflowerblue; 
+    font-size: 60px; }
+label {
+    color: blue;
+}
+textarea {
+    border-color: cornflowerblue;
+    color: purple;
+}
+.org {
+    color: blueviolet;
+}
+#hugs{  
+    color: coral;
+    font-style: oblique;
+}
+*{font-size: 10px ;}
