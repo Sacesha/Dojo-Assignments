@@ -1,24 +1,27 @@
-h1 {
-    color:cornflowerblue; 
-    font-size: 60px; }
-label {
-    color: blue;
+body * {
+    margin: 10px ;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
-textarea {
-    border-color: cornflowerblue;
-    color: purple;
-}
-.org {
-    color: blueviolet;
-}
-#hugs{  
-    color: coral;
-    font-style: oblique;
-}
-ul {    
-    background-color: crimson;
+
+h1{ 
     color: white;
+    background-color: black;
+    padding: 10px; 
+    font-weight: 300 bold;
 }
-ul .fave {
-    color: orange;
+h2{
+    color:white;
+    background-color: rebeccapurple;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: lighter;
+}
+h3{
+    color:darkslateblue;
+    background-color:lightskyblue;
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+    text-decoration: underline;
 }
