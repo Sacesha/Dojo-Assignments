@@ -15,4 +15,10 @@ textarea {
     color: coral;
     font-style: oblique;
 }
-*{font-size: 10px ;}
+ul {    
+    background-color: crimson;
+    color: white;
+}
+ul .fave {
+    color: orange;
+}
