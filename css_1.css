@@ -1,0 +1,29 @@
+#search,#plus,#caccount{
+    margin: 20px;
+    display: block;
+}
+
+#search{
+    background-color:#e2dede;
+    border: thin solid mediumaquamarine;
+    border-radius: 2em;
+    color: mediumaquamarine;
+    font-size: 10pt; font-weight: bold;
+    width: 100px;
+    padding: 3px;
+}
+#plus{
+    background-color:turquoise;
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
+#caccount{
+    width: 120px;
+    border: 1pt solid black;
+    box-shadow: black;
+    background-color: rgb(28, 81, 226);
+    color: white;
+    font-size: 8pt;
+    box-shadow: 2px 2px black;
+}
