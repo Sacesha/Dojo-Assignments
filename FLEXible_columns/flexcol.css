@@ -1,0 +1,24 @@
+.row{
+    Display: flex;
+    flex-direction: row;
+}
+.col{
+    flex: 1; 
+    background-color: brown;
+    margin: 10px;
+}
+.col-1{
+    flex: 1;
+    background-color: brown;
+    margin: 10px;
+}
+.col-2{ 
+    flex: 2;
+    background-color: brown;
+    margin: 10px;
+}
+.col-3{ 
+    flex: 3;
+    background-color: brown;
+    margin: 10px;
+}

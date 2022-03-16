@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <header class= "nav-bar">
+        Dojonary 
+        <div>
+            <input class="search" type= "text" name= "search-bar">
+        </div>
+        <div>
+            <button id="lb" onclick="logout('Logout')">Login</button>
+        </div>
+    </header>
+    <div id= "col-1">
+        <section id= "definitions">
+            <div>
+                ninja<br>
+                noun<br>
+                Plural: <span>ninjas</span><br>
+                <button id="likes" onclick= "addLikes()">44 likes</button>
+            </div>
+            <p>
+                A practitioner skilled in the<br>
+                <a href= "https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href= "https://naruto.fandom.com/wiki/Ninjutsu">ninjitsu</a>  
+            </p>
+        </section>
+        <section id= "definitions">
+            <div>
+                ninja<br>
+                noun<br>
+                Plural: <span>ninjas</span><br>
+                <button id="likes" onclick= "addLikes()">88 likes</button>
+            </div>
+            <p>
+                A <a href= "https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks<br>
+                down problems with <a href= "https://en.wikipedia.org/wiki/Zen">zen</a>-like<br>
+                focus
+            </p>
+        </section>
+    </div>
+    <div id= "col-2">
+        <section id= "claim">
+            <p>Dojonary is<br>
+            defined by <span id= thicc>YOU</span></p>
+            <br>
+            <button id="add" onclick= "remove()">Add Definition</button>
+        </section>
+    </div>
+    <script src= "script.js"></script>
+</body>
+</html>

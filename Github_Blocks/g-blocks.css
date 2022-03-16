@@ -1,0 +1,43 @@
+.roy, .g, .biv{
+    width: 90%;
+    margin: 20px auto; 
+    padding: 25px; 
+}
+.roy{
+background-color:palevioletred;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.g{
+background-color: darkslateblue;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.biv{
+background-color: plum;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+#rpics, #gpics, #bpics {
+    height: 300px;
+    width: 300px;
+}
+*{  
+    justify-content: center;
+}
+h1{ 
+    text-align: center;
+    color: skyblue;
+    font-size: 8em;
+    margin-top: 0%;
+}
+h6{ 
+    text-align: center;
+    font-style: oblique;
+}
+.container{
+background-color: papayawhip;
+}

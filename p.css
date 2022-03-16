@@ -1,0 +1,15 @@
+.pics{
+    height: 2em;
+}
+.mpic{
+    height: 20em;
+}
+th, td{
+    border-bottom: 1px solid cornsilk;
+}
+td{
+    padding: 4px;
+}
+.tech{
+    text-shadow: 4px 4px cornsilk;
+}

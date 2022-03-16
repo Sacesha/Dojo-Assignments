@@ -1,0 +1,17 @@
+/* make the city lists items the same color as the title */
+header {
+    background-color:lightskyblue;
+    /* inline block for height~2000px */
+    /* everything in it is flex-row */
+}
+
+#cities{
+    color: antiquewhite;
+    /* less than 1/2 as thick as title */
+    /*  evenly spaced flex-:*/
+    /*justify content:space-between */
+}
+/* .citylist = parent of #cities */
+.citylist{
+
+}

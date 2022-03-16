@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+.container {
+    height: 500px;
+    /* width: 1000px; */
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    border: thick solid black;
+    background-color: white;
+    color: black;
+}
+header {
+    font-weight: bold;
+    text-emphasis-style: black;
+    size: 4px;
+}
+.like    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: thick inset black;
+}
